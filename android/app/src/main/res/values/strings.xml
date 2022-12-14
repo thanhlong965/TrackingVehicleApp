@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Map marker</string>
+    <string name="google_map_apikey">AIzaSyDEAf1AzLgZUUXvQYkcmSvdXoiNz1lACIo</string>
+</resources>
