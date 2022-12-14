@@ -86,13 +86,7 @@ function MyStack() {
         animation: Platform.OS === 'android' ? 'fade_from_bottom' : 'default',
       }}
       initialRouteName={'Login'}>
-      {/* <Stack.Screen name="Main" component={MyTabs} /> */}
       <Stack.Screen name="Login" component={LoginScreen} />
-      {/* <Stack.Screen name="Register" component={RegisterScreen} /> */}
-      {/* <Stack.Screen name="ProductDetail" component={ProductDetailScreen} /> */}
-      {/* <Stack.Screen name="ProductList" component={ProductListScreen} /> */}
-      {/* <Stack.Screen name="Cart" component={CartScreen} /> */}
-      {/* <Stack.Screen name="Payment" component={PaymentScreen} /> */}
       <Stack.Screen name="HomeScreen2" component={HomeScreen2} />
     </Stack.Navigator>
   );
